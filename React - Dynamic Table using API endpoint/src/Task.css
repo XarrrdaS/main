@@ -1,0 +1,170 @@
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #96604b transparent;
+    
+  }
+
+
+*::-webkit-scrollbar {
+    width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #96604b;
+}
+
+
+body{
+    background-color: #141518; 
+    color: rgba(255, 255, 255, 0.767);
+    font-family: 'Century Gothic', sans-serif;
+    word-wrap: break-word;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+}
+  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+tbody>tr>:nth-child(1){
+    text-align:center;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #3e4149f6;
+}
+.table td{
+    cursor: pointer;
+}
+.table tr:hover{
+    cursor: pointer;
+    background-color: rgb(47, 67, 90);
+}
+.table th {
+    background-color: #AB6B51;
+    font-weight: bold;
+}
+.head{
+    transition: unset !important;
+    transform: unset !important;
+    cursor: unset !important;
+}
+.table tr.selected {
+    background-color: rgb(58, 90, 128);
+}
+  
+.more-info {
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: transparent;
+    border: 5px solid rgb(47, 67, 90);
+}
+.info-title{
+    color: #AB6B51;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 30px;
+}
+.subtitle{
+    font-size: 20px;
+    color: #39918C;
+}
+.no-data{
+    color: rgb(197, 29, 29);
+}
+.api-path{
+    font-size: 30px;
+    text-align: center;
+    word-break: break-all;
+}
+a{
+    color: #39918db0;
+    text-underline-offset: 10px;
+}
+a:active{
+    color: #1a5a56b0;
+}
+.breadcrumb {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.breadcrumb button {
+    margin: 4px;
+    flex: 1 1 auto;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(107, 139, 175);
+    padding: 10px;
+    width: 120px;
+    color: rgb(76, 104, 136);
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+}
+.button-id{
+    color: rgb(53, 72, 94);
+}
+.button-index{
+    position: absolute;
+    text-align: left;
+    left: 5px;
+    top: 5px;
+    color: rgb(58, 68, 80);
+    font-size: 20px;
+}
+.breadcrumb button:hover{
+    transform: scale(1.22);
+    background-color: rgb(40, 40, 46);
+    cursor: pointer;
+}
+
+h2{
+    margin: unset;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1088px) and (min-width: 501px){
+    .more-info{
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .container {
+        width: 80%;
+    }
+    .whole-table{
+        overflow-x: auto;
+    }
+      
+}
+@media screen and (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+    .more-info{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .whole-table{
+        overflow-x: auto;
+    }
+}
