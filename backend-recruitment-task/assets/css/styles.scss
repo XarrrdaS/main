@@ -1,0 +1,105 @@
+$bg-color: #141518;
+$link-color: rgb(85, 136, 180);
+$link-active-color: rgb(60, 102, 139);
+$table-header-color: #96604b;
+$table-border-color: #3f424b;
+$font-color: rgba(255, 255, 255, 0.767);
+$button-delete-color: #ad3a32;
+$button-delete-active-color: #86231c;
+$button-add-color: rgb(66, 153, 102);
+$button-add-active-color: rgb(60, 112, 82);
+$scrollbar-color: #96604b;
+$scrollbar-background-color: #141518;
+
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: $scrollbar-color $scrollbar-background-color;
+    
+    &::-webkit-scrollbar {
+      width: 9px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: $scrollbar-background-color;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background-color: $scrollbar-color;
+    }
+  }
+
+html{
+    background-color: $bg-color;
+    font-family: 'Century Gothic', sans-serif;
+
+    a{
+        color: $link-color;
+
+        &:active{
+            color: $link-active-color;
+        }
+    }
+
+    .table_users{
+        th, td{
+            border: 1px solid $table-border-color;
+            padding: 10px;
+            color: $font-color;
+        }
+        tr:first-of-type{
+            background-color: $table-header-color;
+        }
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    .delete-button, .add-button{
+        background-color: transparent;
+        color: white;
+        border: none;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 4px;
+        float: right;
+
+        &.delete-button{
+            background-color: $button-delete-color;
+
+            &:active{
+                background-color: $button-delete-active-color;
+            }
+        }
+
+        &.add-button{
+            background-color: $button-add-color;
+            width: 100%;
+            
+            &:active{
+                background-color: $button-add-active-color;
+            }
+        }
+    }
+
+    .add-users{
+        text-align: center;
+
+        label{
+            display: grid;
+            width: 100%;
+            color: $button-add-color;
+            font-weight: bold;
+            margin-top: 10px;      
+        }
+
+        input{
+            outline: none;
+            border: 2px solid $button-add-color;
+            background-color: transparent;
+            color: $font-color;
+            padding: 10px;
+            font-family: 'Century Gothic', sans-serif;
+        }
+    }
+}
