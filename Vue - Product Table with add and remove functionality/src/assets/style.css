@@ -1,0 +1,174 @@
+h1{
+    letter-spacing: 5px;
+  }
+  html{
+    background-color: rgb(38, 42, 51);
+  }
+  *{
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(197, 197, 197);
+    scrollbar-width: auto;
+    scrollbar-color: #457b9d rgb(38, 42, 51);
+  }
+  
+  *::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(38, 42, 51);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #457b9d;
+  }
+  table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  thead{
+    background-color: rgba(66, 71, 83, 0.418);
+  }
+  th,
+  td {
+    padding: 11px;
+    border: 1px solid #457b9d;
+  }
+  
+  #search{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 350px;
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #218380
+  }
+  #search:focus{
+    outline: none;
+  }
+  .search-container{
+    margin-top: 50px;
+  }
+  .search-container label{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .add-product-container{
+      /* display: flex; */
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      width: 60%;
+      margin: auto;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: space-around;
+  }
+  .add-product-container input, select{
+    width: 300px;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #218380;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+  }
+  .add-product-container select option{
+    background-color: rgb(38, 42, 51);
+  }
+  .add-button{
+    width: 200px;
+    margin-top: 85px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent;
+    color: #2ce698;
+    border: 1px solid #2ce698;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .add-button:hover{
+    transform: scale(1.02);
+  }
+  .delete-button{
+    padding: 10px 15px;
+    background-color: transparent;
+    color: rgb(245, 13, 13);
+    border: 1px solid rgb(185, 13, 13);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .delete-button:hover{
+    transform: scale(1.02);
+  }
+  .currency-icon{
+    float: left;
+  }
+  .fa-filter{
+    margin-left: 10px;
+    border: 1px solid #7dafce;
+    padding: 4px 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .fa-filter:hover{
+    transform: scale(1.05);
+  }
+@media screen and (max-width: 1703px) {
+    .add-product-container input, select{
+        width: 300px;
+        font-size: 16px;
+        padding: 15px;
+        margin-top: 10px;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid #218380;
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing:content-box;
+        box-sizing:content-box;
+      }
+      .add-product-container{
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-around;
+    }
+}
+@media screen and (max-width: 1350px){
+    .add-product-container{
+        /* display: flex; */
+        display: unset;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-around;
+    }
+      .add-product-container div{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 422px){
+    h1{
+        font-size: 22px;
+    }
+    .add-product-container input, select{
+        width: 70%;
+      }
+      #search{
+        width: 70%;
+      }
+      .add-button{
+        width: 70%;
+      }
+}

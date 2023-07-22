@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Domek 2m x 3m x 1,5m",
+    "category": "Montaż na ziemi",
+    "price": 1546
+  },
+  {
+    "id": 2,
+    "name": "Domek dla cieląt",
+    "category": "Bezpośrednie",
+    "price": 1143
+  },
+  {
+    "id": 3,
+    "name": "Domek dla psa",
+    "category": "Bezpośrednie",
+    "price": 114
+  },
+  {
+    "id": 4,
+    "name": "Domek 10m x 20m x 3m",
+    "category": "Montaż na ziemi",
+    "price": 11293
+  },
+  {
+    "id": 5,
+    "name": "domek na drzerwie",
+    "category": "Montaż na drzewie",
+    "price": 33
+  }
+]
