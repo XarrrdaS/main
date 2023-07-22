@@ -1,0 +1,89 @@
+
+.header {
+  height: 100vh !important;
+  max-height: 900px !important;
+  background-image: url("images/auto3.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-size: cover !important;
+  min-height: 1000px !important;
+  animation: slideBg 15s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  backface-visibility: hidden;
+}
+
+@keyframes slideBg{ 
+  0% { 
+    background-image: url("images/auto3.png");
+  }
+  33% {
+    background-image: url("images/auto6.jfif");
+  }
+  66%{
+    background-image: url("images/auto13.jfif");
+  }
+
+
+} 
+
+.header .overlay {
+  height: 100%;
+  background: rgba(33, 37, 41, 0.85);
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.root {
+  max-width: 1440px;
+}
+
+.has-img-bg {
+  background-image: url(images/297835380_2293199260832870_1000104497537671514_n.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-size: 1275px 635px !important;
+  
+}
+
+.middle-items {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-title {
+  font-size: 4rem;
+}
+
+.has-height-md {
+  min-height: 300px;
+}
