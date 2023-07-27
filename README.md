@@ -4,11 +4,11 @@
 </div>
 
 <h1 align="center">Hi 👋, I'm Kacper </h1>
-Passionate about WEB programming with 2 years of experience. For me, web development is not only a job, but above all a hobby and meeting the requirements of each project. As a perfectionist, I meticulously take care of every detail and strive to achieve perfection and satisfaction with the work done.
+Passionate about WEB programming with 2 years of experience. For me, web development is not only a job, but above all a hobby and meeting the requirements of each project. As a perfectionist, I meticulously take care of every detail and strive to achieve perfection and satisfaction with the work done.<br>
 I am not afraid to take on challenges and overcome difficulties, because for me, nothing is impossible. I can quickly and efficiently absorb new technologies and integrate them into my projects. I treat each project with the utmost care because the most important thing for me is the quality of the work done and customer satisfaction.
-
+<br><br>
 My passion for WEB programming motivates me to constantly develop and improve my skills. I dedicate my time and skills to achieving the best results and creating projects that stand out from others.
-
+<br><br>
 Feel free to visit my website: https://www.mekacper.pl/
 
 ## 🌐 Socials:
