@@ -6,7 +6,6 @@
 <h1 align="center">Hi 👋, I'm Kacper </h1>
 I'm 20-year-old with a passion for the latest technology and a keen interest in programming. 
 I have a strong analytical mind and I'm constantly hungry for knowledge in the programming world.
-Currently working on my own Website!
 
 ## 🌐 Socials:
 
