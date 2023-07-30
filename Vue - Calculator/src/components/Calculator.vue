@@ -53,16 +53,13 @@ export default {
       }
 
       if (this.result === '' && ['*', '-', '+', '%', '0'].includes(value)) {
-        // jeśli nic nie ma wpisanego i klawisz działania, to nic się nie dzieje
         return;
       }
 
       if (this.operator !== '' && ['*', '-', '+', '%'].includes(value)) {
-        // jeśli mamy już operator i kliknięto kolejny przycisk działania, zastępujemy go
         this.result = this.result.slice(0, -1) + value;
         this.operator = value;
       } else {
-        // dodajemy symbol operatora lub cyfrę do wyniku
         this.result += value;
         this.operator = '';
       }
@@ -91,6 +88,7 @@ export default {
       try {
         this.calculation = this.result;
         this.result = eval(this.result.replace(/÷/g, '/').replace(/x/g, '*'));
+
         if (typeof this.result === 'number') {
           this.result = parseFloat(this.result.toFixed(5));
         }
@@ -121,9 +119,11 @@ export default {
 
     backspace() {
       this.result = this.result.toString().slice(0, -1);
+
       if (this.result === 'Error') {
         this.clear();
       }
+
       this.operator = ['÷', '*', '-', '+', '%'].includes(this.result.slice(-1)) ? this.result.slice(-1) : '';
     },
 
@@ -131,6 +131,7 @@ export default {
       if (this.result === '' || this.result === '-') {
         return;
       }
+
       if (this.result[0] === '-') {
         this.result = this.result.toString().slice(1);
       } else if (parseFloat(this.result) < 0) {
