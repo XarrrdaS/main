@@ -11,5 +11,5 @@ To change login or password, you need to use this:<br>
   echo password_hash('Word you want to hash', PASSWORD_BCRYPT);
 ?>
 ```
-Generated hash, copy and paste to <i>'hash.php'</i> file<br><br>
+Generated hash, copy and paste to <i>`hash.php`</i> file<br><br>
 <sub>MADE WITH HEARTH 🖤</sub>
