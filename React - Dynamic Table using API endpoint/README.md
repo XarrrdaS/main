@@ -1,4 +1,4 @@
-# My own App using the Google Books API endpoint to fetch data
+# App using the Google Books API endpoint to fetch data
 To make the application work correctly, install 'node_modules' via `npm install` first.<br>
 Then, run the react app `npm start`.<br>
 The application retrieves information from the API endpoint to dynamically display the data in the table.<br>
