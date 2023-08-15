@@ -1,5 +1,5 @@
 
-# My own login panel with session
+# Login panel with session
 I made this login panel as an exercise for myself.<br><br>
 Default login is: $\color{red}{admin}$<br>
 Default password is: $\color{red}{admin}$<br><br>
