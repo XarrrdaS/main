@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Do the laundry"
+    },
+    {
+      "id": 2,
+      "text": "Clean the bedroom"
+    },
+    {
+      "id": 3,
+      "text": "Make an application using React.js"
+    },
+    {
+      "id": 4,
+      "text": " Prepare food for guests who will arrive at 8:00 pm and talk to them about the project"
+    }
+  ]
+}
