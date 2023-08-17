@@ -1,0 +1,21 @@
+.pokemon-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.single-pokemon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.pokemon-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.pokemon-card img {
+  max-width: 100%;
+  height: auto;
+}
