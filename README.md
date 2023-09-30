@@ -3,9 +3,7 @@
 </div>
 
 
-$\color{red}{To download a specific folder from this repository, simply go to that folde}$
-
-
+[![](https://img.shields.io/badge/github-blue?style=for-the-badge)](To download a specific folder from this repository, simply go to that folder, copy the URL, paste here and press enter)
 
 <h1> 💫 About Me:</h1>
 I'm a passionate programmer with 2 years of experience. 👨‍💻 Creating apps and websites is my hobby and an opportunity to meet the unique requirements of each project. As a perfectionist, I pay close attention to every detail, striving for excellence in everything I do. <br><br>I'm not afraid of challenges, and I believe that nothing is impossible. 💪 I quickly and efficiently learn new technologies and integrate them into my work, and every project I undertake is treated with utmost care and dedication. For me, the quality of work and customer satisfaction are the top priorities. <br><br>My enthusiasm for programming motivates me to constantly learn, grow and improve my skills. 🚀 I'm dedicated to achieving the best results and creating projects that stand out from the rest. <br><br>Feel free to check out my website 😊: https://www.mekacper.pl/
