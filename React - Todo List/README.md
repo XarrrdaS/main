@@ -5,7 +5,7 @@ The application uses a JSON file as the database and an Express server for API e
 The app also has the function to add and remove from the JSON file. <br>
 Additionally, each time you delete or add Todo task, the app updates the ID row in the JSON file to make sure everything is in order.
 <br><br>
-![Alt text](/main/React%-%-Todo%Listscreenshots/screenshot.png?raw=true)
+[![Alt text](/main/React%-%-Todo%Listscreenshots/screenshot.png?raw=true)](https://github.com/XarrrdaS/main/blob/main/React%20-%20Todo%20List/screenshots/screenshot.png)
 This is how the app looks like, very simple mechanism - very simple appearance.
 
 <sub>MADE WITH HEARTH 🖤</sub>
