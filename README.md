@@ -1,7 +1,7 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNkMWM5MTNmM2JlZTlkYTJiMGNjNGJhMTQ2MjNjZWQwN2FlNDhkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/2IudUHdI075HL02Pkk/giphy.gif" width="100"/>
-</div>
-<br>
+</div><br>
+
 `To download a specific folder from this repository, simply go to that folder, copy the URL, paste to the input box under the link and press enter`
 <a href="https://download-directory.github.io/" target="_blank">`https://download-directory.github.io/`</a>
 
