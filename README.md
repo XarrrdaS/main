@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNkMWM5MTNmM2JlZTlkYTJiMGNjNGJhMTQ2MjNjZWQwN2FlNDhkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/2IudUHdI075HL02Pkk/giphy.gif" width="100"/>
 </div>
 
-# $\textcolor{yellow}{To\ download\ a\ specific\ folder\ from\ this\ repository,\ simply\ go\}$
+# $\textcolor{yellow}{To\ download\}$
 [![](https://img.shields.io/badge/github-blue?style=for-the-badge)](To download a specific folder from this repository, simply go to that folder, copy the URL, paste here and press enter)
 
 <h1> 💫 About Me:</h1>
