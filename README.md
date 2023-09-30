@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNkMWM5MTNmM2JlZTlkYTJiMGNjNGJhMTQ2MjNjZWQwN2FlNDhkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/2IudUHdI075HL02Pkk/giphy.gif" width="100"/>
 </div>
 
-$\textcolor{red}{To\ download\ a\ specific\ folder\ from\ this\ repository,\ simply\ go\ to\ that\ folder,\ copy\ the\ URL,\ paste\ in\ the\ link\ and\ press\ enter }$
+$\textcolor{red}{To\ download\ a\ specific\ folder\ from\ this\ repository,\ simply\ go\ to\ that\ folder,\ copy\ the\ URL,\ paste\ into\ the\ input\ under\ the\ link\ and\ press\ enter }$
 <a href="https://download-directory.github.io/" target="_blank">`https://download-directory.github.io/`</a>
 
 <h1> 💫 About Me:</h1>
