@@ -9,3 +9,4 @@ Additionally, each time you delete or add Todo task, the app updates the ID row 
 This is how the app looks like, very simple mechanism - very simple appearance.
 
 <sub>MADE WITH HEARTH 🖤</sub>
+![Alt text](/screenshots/screenshot.png?raw=true)
