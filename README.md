@@ -3,7 +3,7 @@
 </div>
 
 
-$\color{red}{To download a specific folder from this repository, simply go to that folder, copy the URL, paste here and press Enter https://download-directory.github.io/}$
+$\color{red}{To download a specific folder from this repository, simply go to that folde}$
 
 
 
