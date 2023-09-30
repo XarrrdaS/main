@@ -5,7 +5,7 @@ The application retrieves information from the API endpoint to display the data.
 You can enter a city in the input field to fetch data for a specific city.<br>
 Additionally, the app also includes a 5-day forecast feature
 <br><br>
-![Alt text](https://github.com/XarrrdaS/main/blob/main/React%20-%20Weather%20app/screenshots/screenshot.png?raw=true)
+![Alt text](https://github.com/XarrrdaS/main/blob/main/React%20-%20Weather%20App/screenshots/screenshot.png?raw=true)
 This is how the app looks like
 
 <sub>MADE WITH HEARTH 🖤</sub>
