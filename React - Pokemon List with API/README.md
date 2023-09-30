@@ -6,4 +6,6 @@ The app also has a function to search for a specific Pokemon from the Pokemon li
 Additionally, clicking on a specific Pokemon will display additional information about that Pokemon.
 <br><br>
 ![Alt text](https://github.com/XarrrdaS/main/blob/main/React%20-%20Pokemon%20List%20with%20API/screenshots/screenshot.png?raw=true)
+This is what the app looks like.
+
 <sub>MADE WITH HEARTH 🖤</sub>
