@@ -7,5 +7,3 @@ Additionally, each time you delete or add Todo task, the app updates the ID row 
 <br><br>
 ![Alt text](https://github.com/XarrrdaS/main/blob/main/React%20-%20Todo%20List/screenshots/screenshot.png?raw=true)
 This is how the app looks like, very simple mechanism - very simple appearance.
-
-<sub>MADE WITH HEARTH 🖤</sub>
