@@ -9,5 +9,3 @@ The app also generates the clicked rows history by displaying a button with the 
 This is how the app looks like.<br><br><br>
 ![Alt text](https://github.com/XarrrdaS/main/blob/main/React%20-%20Dynamic%20Table%20using%20API%20endpoint/screenshots/screenshot2.png?raw=true)
 Here you can see the history of clicked rows.
-
-<sub>MADE WITH HEARTH 🖤</sub>
