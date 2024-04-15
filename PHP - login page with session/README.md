@@ -12,4 +12,3 @@ To change login or password, you need to use this:<br>
 ?>
 ```
 Generated hash, copy and paste to <i>`hash.php`</i> file<br><br>
-<sub>MADE WITH HEARTH 🖤</sub>
