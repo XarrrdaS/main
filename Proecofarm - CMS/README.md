@@ -5,6 +5,3 @@ When you are ready, just run this site (http://localhost/Proecofarm%20-%20CMS/),
 if you want to enter my own CMS, you need to type <i><b>`/admin`</b></i> after the site address (http://localhost/Proecofarm%20-%20CMS/admin/).<br>
 Default login: <i><b>admin</b></i><br>
 Default password: <i><b>admin</b></i><br>
-#### ENJOY 😎
-
-<sub>MADE WITH HEARTH 🖤</sub>
