@@ -7,5 +7,3 @@ Additionally, the app also includes a 5-day forecast feature
 <br><br>
 ![Alt text](https://github.com/XarrrdaS/main/blob/main/React%20-%20Weather%20App/screenshots/screenshot.png?raw=true)
 This is how the app looks like
-
-<sub>MADE WITH HEARTH 🖤</sub>
